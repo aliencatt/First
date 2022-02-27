@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Social_Media
+class Facebook
+class Instagram
+class Twitter
+class Whatsapp
+
+interface Social_Media <|-- class Facebook
+Social_Media <|-- Instagram
+Social_Media <|-- Twitter
+Social_Media <|-- Whatsapp
+
+@enduml
